@@ -15,3 +15,8 @@ var xhttp = new XMLHttpRequest();
 xhttp.open("GET", "../../../../../../[down to your base folder]...link to your script&uid="+userid+"&qid=CIVC-CF&sid=1&sval="+scoreval);
 xhttp.setRequestHeader( 'Access-Control-Allow-Origin', '*');
 xhttp.send();
+
+
+// Scorm 2004 LMS comit code
+SCORM2004_SetScore(100, 100, 10);
+SCORM2004_CommitData();
